@@ -35,3 +35,17 @@ const classe = [
     { prenom: 'Alice', age: 18 },
     { prenom: 'Bob', age: 17 }
 ];
+
+
+for (let i = 0; i < classe.length; i++) {
+    if (classe[i].age >= 18) {
+    console.log(classe[i].prenom + " est majeur");
+} else {
+    console.log("le reste des éleves est mineur");
+}
+}
+const prenom = "azz69"
+function saluer(prenom) {
+    const message = "gitBonjour " + prenom;
+    return message;
+}
